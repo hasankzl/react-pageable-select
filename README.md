@@ -29,7 +29,6 @@ class Example extends Component {
           multiple: true,
           onChange: (e) => alert('selected value: ' + e.target.value)
         }}
-        caseSensitive={caseSensitive}
         searchPattern={(d) => d.name + ' ' + d.id} // the worlds you write in search box will be searched in search pattern
         option={(
           singleData,
