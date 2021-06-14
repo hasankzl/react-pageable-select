@@ -1,23 +1,23 @@
-# react-pageble-select
+# react-pageable-select
 
-> pagable select compnent for react
+> pageable select compnent for react
 
 # live demo
 
-https://react-pagable-select.netlify.app/
+https://react-pageable-select.netlify.app/
 
 ## Install
 
 ```bash
-npm install --save react-pageble-select
+npm install  react-pageable-select
 ```
 
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
-import ReactPagableSelect from 'react-pageble-select'
-import 'react-pageble-select/dist/index.css'
+import ReactPagableSelect from 'react-pageable-select'
+import 'react-pageable-select/dist/index.css'
 
 class Example extends Component {
   render() {

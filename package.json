@@ -1,10 +1,10 @@
 {
-  "name": "react-pageble-select",
+  "name": "react-pageable-select",
   "version": "1.0.0",
   "description": "pagable select compnent for react",
   "author": "hasankzl",
   "license": "MIT",
-  "repository": "hasankzl/react-pageble-select",
+  "repository": "hasankzl/react-pageable-select",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

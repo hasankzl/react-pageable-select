@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
-import ReactPagableSelect from 'react-pageble-select'
-import 'react-pageble-select/dist/index.css'
+import ReactPagableSelect from 'react-pageable-select'
+import 'react-pageable-select/dist/index.css'
 import { UnControlled as CodeMirror } from 'react-codemirror2'
 import 'codemirror/lib/codemirror.css'
 import 'codemirror/theme/material.css'

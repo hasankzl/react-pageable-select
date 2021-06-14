@@ -1,5 +1,5 @@
 {
-  "name": "react-pageble-select-example",
+  "name": "react-pageable-select-example",
   "homepage": ".",
   "version": "0.0.0",
   "private": true,
@@ -14,7 +14,7 @@
     "react": "file:../node_modules/react",
     "react-codemirror2": "^7.2.1",
     "react-dom": "file:../node_modules/react-dom",
-    "react-pageble-select": "file:..",
+    "react-pageable-select": "file:..",
     "react-scripts": "file:../node_modules/react-scripts"
   },
   "devDependencies": {
