@@ -10,10 +10,12 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "codemirror": "^5.61.1",
     "react": "file:../node_modules/react",
+    "react-codemirror2": "^7.2.1",
     "react-dom": "file:../node_modules/react-dom",
-    "react-scripts": "file:../node_modules/react-scripts",
-    "react-pageble-select": "file:.."
+    "react-pageble-select": "file:..",
+    "react-scripts": "file:../node_modules/react-scripts"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
