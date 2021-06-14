@@ -16,13 +16,13 @@ npm install  react-pageable-select
 
 ```jsx
 import React, { Component } from 'react'
-import ReactPagableSelect from 'react-pageable-select'
+import ReactPageableSelect from 'react-pageable-select'
 import 'react-pageable-select/dist/index.css'
 
 class Example extends Component {
   render() {
     return (
-      <ReactPagableSelect
+      <ReactPageableSelect
         data={data} // data for select
         // props for html select element
         selectProps={{
