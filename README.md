@@ -47,8 +47,6 @@ class Example extends Component {
 
 # styling
 
-```
-
 you can overrite these class for changing style (you can be contribute for styling)
 
 ```
@@ -58,38 +56,33 @@ you can overrite these class for changing style (you can be contribute for styli
 .rps-search-div
 .rps-search-input
 .rps-select
-
 ```
+
 # props
 
-
-
-|     Property     |   Type   |    Default   |                           description                           |
-|:----------------:|:--------:|:------------:|:---------------------------------------------------------------:|
-|       data       |   array  |      []      |                     data for select element.                    |
-|    selectProps   |  object  |      {}      |                properties for html select element               |
-|   searchPattern  | function |    ()=>{}    | Returns a string value. Searching is done in this string value. |
-|   caseSensitive  |   bool   |     false    |                  controls search case sensitive                 |
-|     pageSize     |  integer |       5      |                      page size for options.                     |
-|  pageSizeOptions |   array  | [5,10,15,20] |                   options to change page size.                  |
-|   onPageChange   | function |    ()=>{}    |               function triggered after page change              |
-| onPageSizeChange | function |    ()=>{}    |            function triggered after page size change            |
-|   previousText   |  string  |      "<"     |                 value inside the previous button                |
-|     nextText     |  string  |      ">"     |                   value inside the next button                  |
-|      ofText      |  string  |     "of"     |                        value for of text                        |
-|     pageText     |  string  |    "Page"    |                       value for page text                       |
-|    searchText    |  string  |   "Search"   |                      value for search text                      |
-|      option      | function |  must be set | function which return option for every data (see documentation for usage) |
-|  showPagination  |   bool   |     true     |                    shows pagination component                   |
-|    showSearch    |   bool   |     true     |                      shows search component                     |
-
-
-
-
-
-
+|     Property     |   Type   |   Default    |                                description                                |
+| :--------------: | :------: | :----------: | :-----------------------------------------------------------------------: |
+|       data       |  array   |      []      |                         data for select element.                          |
+|   selectProps    |  object  |      {}      |                    properties for html select element                     |
+|  searchPattern   | function |    ()=>{}    |      Returns a string value. Searching is done in this string value.      |
+|  caseSensitive   |   bool   |    false     |                      controls search case sensitive                       |
+|     pageSize     | integer  |      5       |                          page size for options.                           |
+| pageSizeOptions  |  array   | [5,10,15,20] |                       options to change page size.                        |
+|   onPageChange   | function |    ()=>{}    |                   function triggered after page change                    |
+| onPageSizeChange | function |    ()=>{}    |                 function triggered after page size change                 |
+|   previousText   |  string  |     "<"      |                     value inside the previous button                      |
+|     nextText     |  string  |     ">"      |                       value inside the next button                        |
+|      ofText      |  string  |     "of"     |                             value for of text                             |
+|     pageText     |  string  |    "Page"    |                            value for page text                            |
+|    searchText    |  string  |   "Search"   |                           value for search text                           |
+|      option      | function | must be set  | function which return option for every data (see documentation for usage) |
+|  showPagination  |   bool   |     true     |                        shows pagination component                         |
+|    showSearch    |   bool   |     true     |                          shows search component                           |
 
 ## License
 
 MIT © [hasankzl](https://github.com/hasankzl)
+
+```
+
 ```
