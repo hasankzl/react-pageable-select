@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 import PropTypes from 'prop-types'
 import Pagination from './components/Pagination'
 import Search from './components/Search'
-const ReactPagableSelect = ({
+const ReactPageableSelect = ({
   showPagination,
   showSearch,
   data,
@@ -105,7 +105,7 @@ const ReactPagableSelect = ({
   )
 }
 
-ReactPagableSelect.defaultProps = {
+ReactPageableSelect.defaultProps = {
   data: [],
   selectProps: {},
   searchPattern: () => {},
@@ -127,7 +127,7 @@ ReactPagableSelect.defaultProps = {
   option: (singleData, index) => <option>please set option props</option>
 }
 
-ReactPagableSelect.propTypes = {
+ReactPageableSelect.propTypes = {
   data: PropTypes.array,
   searchPattern: PropTypes.func,
   selectProps: PropTypes.object,
@@ -146,4 +146,4 @@ ReactPagableSelect.propTypes = {
   showSearch: PropTypes.bool
 }
 
-export default ReactPagableSelect
+export default ReactPageableSelect

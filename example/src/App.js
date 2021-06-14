@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import ReactPagableSelect from 'react-pageable-select'
+import ReactPageableSelect from 'react-pageable-select'
 import 'react-pageable-select/dist/index.css'
 import { UnControlled as CodeMirror } from 'react-codemirror2'
 import 'codemirror/lib/codemirror.css'
@@ -37,7 +37,7 @@ const App = () => {
           <h3> example with multi select </h3>
           <CodeMirror
             autoCursor={false}
-            value={`  <ReactPagableSelect
+            value={`  <ReactPageableSelect
           data={data}
           selectProps={{
             multiple: true,
@@ -60,7 +60,7 @@ const App = () => {
             onChange={(editor, data, value) => {}}
           />
           <div style={{ width: 500, height: 200, marginTop: 30 }}>
-            <ReactPagableSelect
+            <ReactPageableSelect
               data={data}
               selectProps={{
                 multiple: true,
@@ -81,7 +81,7 @@ const App = () => {
           <h3> example with default select </h3>
           <CodeMirror
             autoCursor={false}
-            value={` <ReactPagableSelect
+            value={` <ReactPageableSelect
             data={data}
             searchPattern={(d) => d.name + ' ' + d.email}
             caseSensitive={caseSensitive}
@@ -100,7 +100,7 @@ const App = () => {
             onChange={(editor, data, value) => {}}
           />
           <div style={{ width: 500, marginTop: 30 }}>
-            <ReactPagableSelect
+            <ReactPageableSelect
               data={data}
               searchPattern={(d) => d.name + ' ' + d.email}
               caseSensitive={caseSensitive}
@@ -121,7 +121,7 @@ const App = () => {
           </h3>
           <CodeMirror
             autoCursor={false}
-            value={` <ReactPagableSelect
+            value={` <ReactPageableSelect
             data={data}
             searchPattern={(d) => d.name}
             selectProps={{
@@ -144,7 +144,7 @@ const App = () => {
             onChange={(editor, data, value) => {}}
           />
           <div style={{ width: 500, marginTop: 30 }}>
-            <ReactPagableSelect
+            <ReactPageableSelect
               data={data}
               searchPattern={(d) => d.name}
               selectProps={{
