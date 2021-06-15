@@ -1,6 +1,6 @@
 # react-pageable-select
 
-> pageable select compnent for react
+pageable select compnent for react
 
 # live demo
 
