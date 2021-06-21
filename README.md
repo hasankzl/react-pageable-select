@@ -74,6 +74,7 @@ you can overrite these class for changing style (you can be contribute for styli
 |      ofText      |  string  |     "of"     |                             value for of text                             |
 |     pageText     |  string  |    "Page"    |                            value for page text                            |
 |    searchText    |  string  |   "Search"   |                           value for search text                           |
+|     rowsText     |  string  |    "rows"    |                            value for rows text                            |
 |      option      | function | must be set  | function which return option for every data (see documentation for usage) |
 |  showPagination  |   bool   |     true     |                        shows pagination component                         |
 |    showSearch    |   bool   |     true     |                          shows search component                           |

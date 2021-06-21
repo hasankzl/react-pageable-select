@@ -1,6 +1,6 @@
 {
   "name": "react-pageable-select",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "pagable and searchable select component for react.js",
   "author": "hasankzl",
   "license": "MIT",

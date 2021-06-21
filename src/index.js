@@ -57,7 +57,10 @@ const ReactPageableSelect = ({
       let isFit = false
       isFit = caseSensitive
         ? searchPattern(d).toString().includes(search)
-        : searchPattern(d).toString().toLowerCase().includes(search)
+        : searchPattern(d)
+            .toString()
+            .toLowerCase()
+            .includes(search.toLowerCase())
       return isFit
     }
     const filteredData = data.filter((d) => isOk(d))

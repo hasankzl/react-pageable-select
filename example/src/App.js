@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-
+import GitHubButton from 'react-github-btn'
 import ReactPageableSelect from 'react-pageable-select'
-import 'react-pageable-select/dist/index.css'
+import 'react-pageable-select/dist/index."css'
 import { UnControlled as CodeMirror } from 'react-codemirror2'
 import 'codemirror/lib/codemirror.css'
 import 'codemirror/theme/material.css'
@@ -10,7 +10,33 @@ const App = () => {
   const [caseSensitive, setCaseSensitive] = useState(false)
   return (
     <div style={{ margin: '30px' }}>
-      <h2 style={{ textAlign: 'center' }}>react-pagable-select</h2>
+      <h2 style={{ textAlign: 'center' }}>react-pageable-select</h2>
+
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center'
+        }}
+      >
+        <GitHubButton
+          href='https://github.com/hasankzl'
+          data-size='large'
+          data-show-count='true'
+          aria-label='Follow @hasankzl on GitHub'
+        >
+          Follow @hasankzl
+        </GitHubButton>
+        <div style={{ margin: 10 }}></div>
+        <GitHubButton
+          href='https://github.com/hasankzl/react-pageable-select'
+          data-icon='octicon-star'
+          data-size='large'
+          data-show-count='true'
+          aria-label='Star hasankzl/react-pageable-select on GitHub'
+        >
+          Star
+        </GitHubButton>
+      </div>
 
       <div style={{ display: 'flex' }}>
         <div style={{ margin: '30px' }}>
